@@ -1,5 +1,6 @@
 package exceptions;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class simpleExceptions {
@@ -13,6 +14,9 @@ public class simpleExceptions {
             int n = keyboard.nextInt();
             System.out.println(number[n]);
         }
+        catch (InputMismatchException e) {
+            System.out.println("Error. Enter the string!");
+        }
         catch (NullPointerException e){
             System.out.println("This array is null!");
         }
@@ -20,9 +24,11 @@ public class simpleExceptions {
         {
             System.out.println("Index is out of bounds!");
         }
-        catch (Exception e) {
-            System.out.println("This is an exception.");
+        catch (Exception e)
+        {
+            System.out.println("This is an exception!");
         }
 
     }
+
 }
