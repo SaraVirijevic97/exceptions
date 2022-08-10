@@ -4,9 +4,6 @@ import java.util.Scanner;
 
 public class myExceptions {
 
-    public myExceptions(String s) {
-    }
-
     public static void main(String[] args) {
 
         Scanner keyboard = new Scanner(System.in);
@@ -31,3 +28,4 @@ public class myExceptions {
         }
     }
 }
+
