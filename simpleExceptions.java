@@ -15,7 +15,7 @@ public class simpleExceptions {
             System.out.println(number[n]);
         }
         catch (InputMismatchException e) {
-            System.out.println("Error. Enter the string!");
+            System.out.println("Error. Enter the number!");
         }
         catch (NullPointerException e){
             System.out.println("This array is null!");
